@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF6200EE</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="ic_launcher_background">#3DDC84</color>
+
+    <!-- Glassmorphism palette -->
+    <color name="glass_bg_deep">#FF070B1F</color>
+    <color name="glass_fill_top">#3DFFFFFF</color>
+    <color name="glass_fill_bottom">#14FFFFFF</color>
+    <color name="glass_stroke">#4DFFFFFF</color>
+    <color name="glass_ripple">#33FFFFFF</color>
+    <color name="glass_text">#FFFFFFFF</color>
+    <color name="glass_text_dim">#B3FFFFFF</color>
+    <color name="glass_accent">#FF5CC8FF</color>
+    <color name="glass_dialog_solid">#F2121A3A</color>
+    <color name="glass_dialog_blur">#8C121A3A</color>
+</resources>

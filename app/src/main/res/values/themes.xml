@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.App" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">@color/primary</item>
+    </style>
+
+    <!-- Tema glassmorphism untuk layar utama -->
+    <style name="GlassTheme" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/glass_bg_deep</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:colorAccent">@color/glass_accent</item>
+        <item name="android:textColorPrimary">@color/glass_text</item>
+    </style>
+
+    <!-- Dialog kaca -->
+    <style name="GlassDialog" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/glass_dialog_bg</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:colorAccent">@color/glass_accent</item>
+        <item name="android:textColorPrimary">@color/glass_text</item>
+        <item name="android:textColorAlertDialogListItem">@color/glass_text</item>
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">88%</item>
+    </style>
+</resources>
